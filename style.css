@@ -1,0 +1,396 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Heebo", sans-serif;
+}
+
+/*==========BLOG nav PAGE==========*/
+/*header-section*/
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    color: black;
+}
+.nav-links{
+    list-style: none;
+    display: flex;
+}
+.nav-links li a{
+    text-decoration: none;
+    font-weight: 700;
+    color: black;
+}
+.hamburger{
+    display: none;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+header{
+    display: flex;
+    justify-content:space-between;
+    margin: 0px 0px 40px;
+    position:sticky;
+    top: 0;
+    background-color: white;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.25);
+    
+
+}
+header .logo1{
+    display: flex;
+    flex-direction: row;
+    padding: 2% 10%;
+    cursor: default;
+}
+
+header .logo1 .logo-faiz{
+    font-family: "Poppins", sans-serif;
+    font-size: 30px;
+    font-weight: bolder;
+    color: #66b2ff;
+}
+
+header .logo1 .logo-blog{
+    font-family: "Poppins", sans-serif;
+    font-weight: bold;
+    color: gray;
+}
+
+header a{
+    text-decoration: none;
+    color: black;
+    font-weight: bolder;
+    padding: 0 18px;
+}
+
+.nav-links li a:hover{
+    color: #ffcc00;
+}
+
+/*blog-section-BLOG PAGE*/
+.blog{
+    display: grid;
+    padding: 60px 10%;
+    margin: 20px 0;
+    justify-content: space-around;
+    gap: 0px 0;
+}
+
+.blog h1{
+    font-weight: bold;
+    margin: 0px 15px 50px;
+}
+
+.blog a{
+    text-decoration: none;
+}
+
+.list-content{
+    padding: 10px 15px;
+    border-bottom: 1px solid gray;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.25);
+
+}
+
+.list-content:hover{
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.25);
+ 
+}
+
+.satu{
+    color: #21243d;
+    font-weight:400;
+    padding-right: 15px;
+}
+
+.dua{
+    border: 1px;
+    border-color: black;
+    align-items: center;
+}
+
+.tiga{
+    padding-left: 10px;
+    color:#8695a4;
+}
+
+.blog a h2{
+    padding-bottom: 0px;
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    font-weight: 550;
+}
+
+.blog a p{
+    color: black;
+    padding-top: 10px;
+}
+
+/*==========BLOG-PAGE PER PAGE========== */
+.blog-content{
+    padding: 0px 10%;
+}
+.blog-content h1{
+    text-align: center;
+    font-size: 36px;
+    margin: 20px 0px;
+}
+.blog-content img{
+    width:50%;
+    height:auto;
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+    padding:20px;
+}
+.blog-content p{
+    text-align: justify;
+    margin: 7px 0;
+}
+.blog-content ul{
+    list-style-position: inside;
+}
+/* Navigasi blog per BLOG-PAGE */
+.navbar-blog-to-blog{
+    display: flex;
+    justify-content: space-between;
+    padding: 35px 10%;
+    background-color: #edf7fa;
+}
+.navbar-blog-to-blog a{
+    text-decoration: none;
+    font-weight: 400;
+}
+
+
+/*==========ABOUT PAGE==========*/
+.intro{
+    display: flex;
+    padding: 25px 0;
+}
+.intro .text-intro{
+    padding-top: 30px;
+}
+
+.intro img{
+    width: 230px;
+    height: 230px;
+    padding-right: 100px;
+    padding-left: 10%;
+}
+
+/*About-section ABOUT PAGE*/
+.about-me{
+    background-color: #edf7fa;
+    padding: 10px 0;
+}
+.about-me h1{
+    text-align:center;
+    margin-top: 3%;
+}
+.about-me .about-paragraph{
+    width:95%;
+    margin: 20px 2.5% 5%;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.25);
+    background-color: white;
+}
+.about-me p{
+    text-align: justify;
+    padding: 14px;
+
+}
+
+/*==========CONTACT PAGE==========*/
+.contact-title{
+    font-family: "Playfair Display", sans-serif;
+    text-align: center;
+    font-size: 40px;
+}
+.wrapped-contact{
+    display: flex;
+    gap:5%;
+    justify-content: center;
+    padding: 70px 10%;
+}
+.wrapped-contact .info-contact{
+    padding: 20px 2%;
+    background-color: #edf7fa;
+    width: 60%;
+}
+.wrapped-contact .info-contact h2{
+    font-size: 20px;
+}
+.wrapped-contact .info-contact li{
+    margin: 14px 0;
+}
+.wrapped-contact .contact{
+    padding:0 2% ;
+    background-color: #edf7fa;
+}
+.wrapped-contact .list-contact{
+    list-style: none;
+}
+.wrapped-contact .contact{
+    padding: 20px 2%;
+    width: 40%;
+}
+.wrapped-contact .contact h2{
+    text-align: center;
+    font-size: 20px;
+    padding-bottom:14px;
+}
+.wrapped-contact .contact input{
+    width: 95%;
+    border: none;
+    padding:8px;
+    border-bottom: 1px solid black;
+}
+.wrapped-contact .contact textarea{
+    min-height:100px;
+    max-height:100px;
+    min-width: 95%;
+    max-width: 300px;
+    border: none;
+    border-bottom:1px solid black;
+    padding:8px;
+}
+.wrapped-contact .contact button{
+    font-size: 16px;
+    border: 1px solid transparent;
+    background-color: blue;
+    color: white;
+    border-radius: 19px;
+    padding: 7px 15px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+.wrapped-contact .contact::placeholder{
+    color: #edf7fa;
+}
+.wrapped-contact .contact button:hover{
+    border-color: black;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.25);
+}
+#notif-sent{
+    visibility: hidden;
+    color: green;
+    margin-top:8px;
+    padding-left: 8px;
+}
+
+/*footer-section*/
+footer{
+    width: 100%;
+    padding: 20px 0;
+    margin-top: 20px;
+    justify-content: center;
+    text-align: center;
+    bottom: 0;
+    position: relative;
+}
+
+footer nav{
+    display: flex;
+    width: 100%;
+    padding-bottom: 10px;
+    justify-content: center;
+}
+
+footer nav a{
+    padding: 0 15px;
+}
+
+footer nav a i{
+    color: black;
+    font-size: 25px;
+}
+
+footer nav p{
+    font-size: 11px;
+}
+
+footer i{
+    padding: 4px;
+}
+
+footer i:hover{
+    padding: 4px;
+    color: white;
+    background-color: black;
+    border-radius: 25%;
+}
+
+/*screen-media*/
+/*@media screen and (max-width:768px)*/
+@media (max-width:768px){
+    /*header-section*/
+    .nav-links{
+        display: none;
+        flex-direction: column;
+        position:absolute;
+        width: 100%;
+        padding: 5%;
+        gap: 10%;
+        top: 73px;
+        right: 0px;
+        height: 100%;
+        background-color: white;
+        text-align: center;
+        box-shadow: 0 0 10px rgba(0,0,0,0.3);
+
+    }   
+
+    .nav-links.active{
+        display: flex;
+    }
+
+    .hamburger{
+        display: block;
+    }
+
+    /*Intro-section Home Page*/
+    .intro{
+    display: flex;
+    padding: 15px 0;
+    flex-direction: column;
+    align-items: center;  
+    }
+
+
+    .intro img{  
+    width: 230px;
+    height: 230px;
+    padding: 0 0 20px;
+    }
+
+    .intro h1{
+    text-align: center;    
+    }
+
+    .intro p{
+    text-align: center;    
+    }
+
+    .wrapped-contact{
+        display: flex;
+        flex-direction: column;
+    }
+    .wrapped-contact .info-contact{
+        width:100%;
+        margin-bottom:14px;
+    }
+    .wrapped-contact .contact{
+        width:100%;
+    }
+    .wrapped-contact .contact textarea{
+        min-height:100px;
+        max-height:100px;
+        min-width: 95%;
+        max-width: 95%;
+    }
+
+} 

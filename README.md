@@ -1,2 +1,2 @@
-# myWebsite-projectDSF-41.0
-untuk tugas free bootcamp DSF 41.0 Front-End by Dibimbing.id
+# ProjectDSF-41.0-FrontEnd
+projek pembuatan web responsif sederhana dengan menggunakan HTML, CSS, dan JS

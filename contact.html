@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <style>
+    @import url('https://fonts.googleapis.com/css2?family=Heebo:wght@100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Heebo:wght@100..900&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Heebo:wght@100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+    </style>
+</head>
+
+<body>
+    <header class="header">
+        <div class="logo1">
+            <p class="logo-faiz">Faiz</p>
+            <p class="logo-blog">blog</p>
+        </div>
+        <nav class="navbar">
+            <ul class="nav-links">
+                <li><a href="about.html">About</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+               <i class="fas fa-bars"></i>
+            </div>
+        </nav>
+    </header>
+
+    <h1 class="contact-title">Contact Me</h1>
+    <p style="text-align: center;">Jika ada yang ingin disampaikan bisa langsung hubungi saya di bawah!</p>
+
+    <div class="wrapped-contact">
+        <div class="info-contact">
+            <h2>Info Kontak</h2>
+            <ul class="list-contact">
+                <li>
+                    <i  class="fas fa-envelope" style="color: blue;"></i>
+                    <span>Email:</span>
+                    <p>muhammadfaizniwansyah23@gmail.com</p>
+                </li>
+                <li>
+                    <i class="fas fa-phone-alt" style="color: green;"></i>
+                    <span>Telepon:</span>
+                    <p>+62-896-9654-9425</p>
+                </li>
+                <li>
+                    <i class="fas fa-location-dot" style="color: red;"></i>
+                    <span>Alamat:</span>
+                    <p>Jl. Kebonsari-Madiun, Ds. Balerejo, Rt. 11/Rw. 02, Kebonsari, Madiun, Jawa Timur, Indonesia</p>
+                </li>
+            </ul>
+        </div>
+
+        <form id="contactForm" class="contact">
+            <h2>Form Kontak</h2>
+            <label for="name">Nama</label><br>
+            <input type="text" name="name" id="name" placeholder="Masukkan nama anda" required><br>
+            <label for="email">Email</label><br>
+            <input type="email" name="email" id="email" placeholder="Masukkan email anda" required><br>
+            <label for="pesan">Pesan</label><br>
+            <textarea name="pesan" id="pesan" placeholder="Tuliskan pesan anda di sini" required></textarea><br>
+            <button type="submit">kirim</button>
+            <div id="notif-sent"><i class="fas fa-check"></i> Pesan telah terkirim!</div>
+        </form>
+
+    </div>
+    <footer class="footer">
+        <nav>
+            <a href="https://www.facebook.com/profile.php?id=61575927502887
+" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+            <a href="https://www.instagram.com/fzznw_?igsh=MWxyMHgzeGp2Y2hmNw==" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://x.com/SemogaBerhasi11?t=Z4O54QGI1WMfj1QIJiIECQ&s=09
+" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+            <a href="www.linkedin.com/in/muhammad-faizniwansyah-37b803347" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+        </nav>
+        <p style="font-size:14px">Copyright &copy;2025. Design by <span>Faiz</span></p> 
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
